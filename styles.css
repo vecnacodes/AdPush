@@ -1,0 +1,187 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f6f8;
+}
+
+header {
+    background-color: #0b284f; /* Dark navy header */
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* White text for better contrast */
+    font-weight: bold;
+}
+
+#hero {
+    background: url('https://www.adpushup.com/wp-content/uploads/2021/06/push-notifications-e1622799399303.png') no-repeat center center/cover;
+    color: rgb(33, 6, 84);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#hero .btn {
+    background-color: #ff4b00; /* Bright orange for buttons */
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+#hero .btn:hover {
+    background-color: #e04300; /* Darker orange on hover */
+}
+
+#features {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align:center;
+}
+
+#features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #0b284f; /* Match the header's navy color */
+}
+
+.feature h3 {
+    color: #0b284f;
+}
+
+#pricing {
+    background-color: #eef3f8; /* Light gray-blue background */
+    padding: 50px 0;
+    text-align: center;
+}
+
+#pricing h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #0b284f;
+}
+
+.plan {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.plan:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+}
+
+.plan h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #0b284f;
+}
+
+.plan p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #666; /* Slightly muted text */
+}
+
+.plan .btn {
+    background-color: #ff4b00;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.plan .btn:hover {
+    background-color: #e04300;
+}
+
+#contact {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #0b284f;
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eef3f8; /* Soft background color for inputs */
+}
+
+#contact-form button {
+    background-color: #ff4b00;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+    background-color: #e04300;
+}
+
+footer {
+    background-color: #0b284f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
